@@ -36,9 +36,9 @@ jobs:
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
-          actor: farfromrefug
-          name: Martin Guillon
-          email: dev@akylas.fr
+          actor: Xplizitt
+          name: MG
+          email: masyn.92@gmail.com
 
       - name: Git config
         run: |
