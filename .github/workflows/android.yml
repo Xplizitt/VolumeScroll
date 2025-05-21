@@ -142,7 +142,7 @@ jobs:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
           KEYSTORE_PATH: ${{ secrets.KEYSTORE_PATH }}
         run: |
-          mkdir -p "$(dirname "$KEYSTORE_PATH")"
+      # mkdir -p "$(dirname "$KEYSTORE_PATH")"
           echo $KEYSTORE_BASE64 | base64 -d > $KEYSTORE_PATH
 
       # - name: publish beta
